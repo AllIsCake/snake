@@ -41,3 +41,12 @@
 .difficult-item:hover, .item:hover {
     background: #64affa;
 }
+
+@media (min-width: 425px) {
+    .set_difficult {
+        justify-content: center;
+    }
+    .difficult-item {
+        margin-top: 5%;
+    }
+}
